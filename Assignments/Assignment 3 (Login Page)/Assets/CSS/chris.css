@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgb(23, 39, 29) 30%,rgba(23, 39, 29, 0.5) ,rgba(23, 39, 29, 0)), url(../Images/home_background.jpg);
+    background-size: cover;
+}

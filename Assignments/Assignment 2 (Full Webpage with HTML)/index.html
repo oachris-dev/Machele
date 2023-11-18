@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <!-- CSS -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+      }
+
+      ul {
+        padding-left: 80px;
+      }
+
+      ul li {
+        padding-top: 15px;
+      }
+
+      ol {
+        padding-left: 80px;
+      }
+
+      ol li {
+        padding-top: 15px;
+      }
+
+      h1 {
+        font-size: 50px;
+        font-size: 60px;
+        padding: 50px;
+        margin-left: 60px;
+      }
+      h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #1A3C5D;
+        padding-top: 50px;
+        padding-bottom: 25px;
+      }
+      hr {
+        margin-left: 40%;
+        margin-top: 200px;
+      }
+
+      button{background-color: #AD7F6A;  
+             border: none;
+             padding-top: 20px; 
+             padding-bottom: 20px; 
+             padding-left: 50px; 
+             padding-right: 50px; 
+             border-radius: 5px;
+             cursor: pointer;
+            }
+
+      a button{
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .image-grid img{
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 20px;
+      }
+
+      .image-grid img:hover{
+        transform: scale(1.1);
+      }
+
+    </style>
+
+    <!-- Home -->
+    <div class="home">
+      <h1 style="color: #1A3C5D;">커피숍</h1>
+      
+      <table>
+        <tr>
+          <td
+            width="1920px"
+            align="left"
+            style="font-size: 30px; padding-left: 100px"
+          >
+            <span style="color: #12726E; font-size: 25px;">Welcome to the</span> <br />
+            <span style="color: #e1c25c; font-size: 100px; padding: 30px"
+              >Coffee Shop</span
+            >
+            <br />
+            <p style="width: 700px; padding-top: 25px">
+              "Did you know that the word "Coffee" has its roots from the Arabic
+              word `qahwah`. Coffee keeps developers awake throughout the night,
+              but I'm an exception."
+            </p>
+          </td>
+          <td>
+            <!-- HOmepage Image -->
+            <img
+              src="../Assignment 2 (Full Webpage with HTML)/assets/images/cover_photo.jpg"
+              alt="Cover Photo"
+              width=""
+              height="650px"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- About -->
+    <div style="padding: 100px;">
+      <h2>Here's a few facts about Coffee</h2>
+      <ol>
+        <li>Brazil is the largest coffee producer in the world</li>
+        <li>Finland consumes the most coffee in the world per capita</li>
+        <li>
+          The world's most expensive coffee is from the other end of a civet
+          cat's digestion track
+        </li>
+      </ol>
+    </div>
+
+    <hr width="20%" />
+
+    <!-- Pricing -->
+    <div align="center">
+      <h2>Pricing</h2>
+      <table border="1" align="center" width="800px" height="500px">
+        <!-- Table Row (tr), Table Head (th) and Table Data (td) -->
+        <tr>
+          <th>Product</th>
+          <th>Size</th>
+          <th>Price</th>
+        </tr>
+        <!-- Coffee 1 -->
+        <tr style="text-align: center">
+          <td rowspan="2">Normal Coffee</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr style="text-align: center">
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <!-- Coffee 2 -->
+        <tr style="text-align: center">
+          <td rowspan="2">Iced Coffee</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr style="text-align: center">
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <!-- Coffee 3 -->
+        <tr style="text-align: center">
+          <td rowspan="2">Extra Caffeine</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr style="text-align: center">
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+      </table>
+    </div>
+
+    <div style="padding: 100px">
+      <h2>We Accept...</h2>
+      <ul>
+        <li>All mobile money payments accross all networks.</li>
+        <li>Credit cards and Debit cards.</li>
+        <li>Cash on delivery.</li>
+      </ul>
+    </div>
+
+    <hr width="20%" />
+
+    <!-- Image Grid -->
+    <div class="image-grid" align="center">
+      <h2>What does our Coffee look like?</h2>
+      <table align="center">
+        <!-- Photo Grid Page -->
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="../Assignment 2 (Full Webpage with HTML)/assets/images/1.jpg"
+                alt=""
+                width="300px"
+              />
+            </td>
+            <td>
+              <img
+                src="../Assignment 2 (Full Webpage with HTML)/assets/images/4.jpg"
+                alt=""
+                width="300px"
+              />
+            </td>
+            <td rowspan="2">
+              <img
+                src="../Assignment 2 (Full Webpage with HTML)/assets/images/5.jpg"
+                alt=""
+                width="300px"
+                height="450px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="../Assignment 2 (Full Webpage with HTML)/assets/images/2.jpg"
+                alt=""
+                width="300px"
+              />
+            </td>
+            <td>
+              <img
+                src="../Assignment 2 (Full Webpage with HTML)/assets/images/3.jpg"
+                alt=""
+                width="300px"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr width="20%" />
+    
+    <!-- Order -->
+    <div style="padding: 100px" align="center">
+      <h2>Want to place an order?</h2>
+    
+        <a href="../Assignment 2 (Full Webpage with HTML)/order-page.html"><button>Place Order</button></a>
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Page</title>
+  </head>
+  <body>
+    <!-- CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .form {
+        margin-top: 100px;
+        justify-content: center;
+      }
+
+      label.fieldname {
+        font-size: 23px;
+        font-weight: bold;
+      }
+
+      input.fieldname {
+        width: 200px;
+        height: 25px;
+        margin-top: 20px;
+        padding: 5px;
+      }
+
+      button {
+        background-color: #ad7f6a;
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        margin-top: 25px;
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a button {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+        button {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .back {
+        background-color: #90ad6a;
+      }
+
+      #size {
+        margin-top: 20px;
+      }
+    </style>
+
+    <!-- Form -->
+    <form action="" class="form" align="center">
+      <!-- First Name -->
+      <label class="fieldname" for="firstname">Name</label> <br />
+      <input
+        class="fieldname"
+        name="firstname"
+        id="firstname"
+        type="text"
+        placeholder="First Name"
+        style="margin-right: 25px"
+      />
+      <!-- Last Name -->
+      <input
+        class="fieldname"
+        name="lastname"
+        id="fieldname"
+        type="text"
+        placeholder="Last Name"
+      />
+      <br /><br />
+
+      <!-- Phone Number -->
+      <label class="fieldname" for="phone">Phone Number</label> <br />
+      <!--    Glo (023)
+                MTN	(024), (054), (055), (059), (025)
+                AirtelTigo	(027), (057), (026), (056)
+                Vodafone	(020), (050)     
+        -->
+      <input
+        class="fieldname"
+        name="phone"
+        id="phone"
+        type="tel"
+        pattern="[023|024|054|055|059|025|027|057|026|056|020|050][0-9]{7}"
+        placeholder="0240123456"
+        maxlength="10"
+        placeholder=""
+      />
+      <br /><br />
+
+      <!-- Quantity -->
+      <label class="fieldname" for="quantity">Quantity</label> <br />
+      <input
+        class="fieldname"
+        name="quantity"
+        id="quantity"
+        type="number"
+        placeholder="No."
+      />
+      <br /><br />
+
+      <!-- Product -->
+      <label class="fieldname" for="product">Product</label> <br />
+      <select name="product" id="product" style="padding: 5px">
+        <!-- Placeholder -->
+        <option>- - - - - - -</option>
+
+        <!-- Options -->
+        <option value="NC">Normal Coffee</option>
+        <option value="IC">Iced Coffee</option>
+        <option value="EC">Extra Caffeine</option>
+      </select>
+      <br /><br />
+
+      <!-- Size -->
+      <label class="fieldname" for="size" id="fieldname">Size</label> <br />
+      <input name="size" id="size" type="radio" />
+      <label for="small">Small</label>
+
+      <input name="size" id="size" type="radio" />
+      <label for="large">Large</label>
+      <br /><br />
+
+      <!-- Delivery Date -->
+      <label class="fieldname" for="delivery-date">Delivery Date</label> <br />
+      <input
+        class="fieldname"
+        name="delivery"
+        id="delivery-date"
+        type="date"
+        style="color: #888888"
+      />
+      <br /><br />
+      
+        <button>Place Order</button>
+    </form>
+
+    <!-- Buttons -->
+    <center>
+      <a href="../Assignment 2 (Full Webpage with HTML)/index.html">
+        <button class="back" style="margin-right: 20px; width: 150px">
+          Back
+        </button>
+      </a>
+    </center>
+  </body>
+</html>

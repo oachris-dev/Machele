@@ -1,0 +1,21 @@
+/* Terminology */
+
+        /* Cascading
+        A process where information or knowledge  is updated successively or consecutively. */
+        
+        /* Specificity
+        the quality of belonging or relating uniquely to a particular subject */
+
+        /* Specificity Sequence */
+        /* inline-css > id > class > tag */
+
+        /* ID
+        Used for specific tags or elements */
+        
+        /* Class
+        Can be shared accross elements or tags */
+
+     *{
+        padding: 0;
+        margin: 0;
+    }

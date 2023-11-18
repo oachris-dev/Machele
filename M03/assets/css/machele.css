@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: red;
+}
+
+/* specificity */
+/* inline > id > class > tag */
+#head-id {
+    color: blue;
+}
+
+.head-class {
+    color: red;
+}
+
+h1#head-id {
+    color: yellow;
+}
+
+h1 {
+    color: green;
+}
+
+div {
+    border: 1px solid brown;
+}
+
+span {
+    border: 1px solid green;
+    /* only left and right margins are applied to inline elements */
+    margin: 100px;
+}
+
+footer {
+    border: 1px solid red;
+    width: fit-content;
+}
+
+.ib {
+    display: inline-block;
+    margin: 100px;
+}
+

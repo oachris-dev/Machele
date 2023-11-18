@@ -1,0 +1,261 @@
+@font-face {
+  font-family: Facon;
+  src: url('../fonts/Facon.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Black;
+  src: url('../fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins-Regular;
+  box-sizing: border-box;
+}
+
+.ads {
+  background-color: #353640;
+  padding: 10px 0;
+  height: 96px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ads button {
+  border: none;
+  background-color: white;
+  width: 218px;
+  height: 56px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #132e55;
+  font-size: 20px;
+  transition:  0.15s ease-in;
+  cursor: pointer;
+}
+
+.ads button:hover {
+  transform: scale(1.03);
+}
+
+.navbar {
+  display: flex;
+  /* makes children appear in a row */
+
+  align-items: center;
+  /* handles vertical alignment */
+  
+  justify-content: space-between;
+  /* gives horizontal spacing to items */
+  padding: 0 100px;
+  height: 129px;
+}
+
+.logo {
+  width: 194px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 121px;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Poppins-Medium;
+}
+
+.active-nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active-nav-link::after {
+  content: "";
+  border: 2px solid #132e55;
+  width: 70%;
+  border-radius: 3px;
+  background-color: #132e55;
+}
+
+.fa-magnifying-glass {
+  font-size: 31px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  height: 851px;
+}
+
+.hero-text {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding-left: 100px;
+  justify-content: center;
+}
+
+.hero-intro-text {
+  font-size: 33px;
+  text-transform: uppercase;
+  font-family: Poppins-SemiBold;
+}
+
+.hero-speed {
+  font-family: Facon;
+  color: #132e55;
+  font-size: 160px;
+}
+
+.hero-motto {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 26px;
+  font-family: Poppins-SemiBold;
+}
+
+.hero-buttons{
+  display: flex;
+  margin-top: 30px;
+}
+
+.hero-primary-btn {
+    position: relative;
+    height: 56px;
+    width: 218px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: Poppins-Medium;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border: 2px #132e55 solid;
+    border-radius: 4px;
+    outline: 0;
+    overflow: hidden;
+    background: #132e55;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.08s ease-in;
+    -o-transition: 0.08s ease-in;
+    -ms-transition: 0.08s ease-in;
+    -moz-transition: 0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+  }
+  
+  .hero-primary-btn:hover {
+    color: #132e55;
+    border: 2px #CEFF1A solid;
+    font-weight: 600;
+  }
+  
+  .hero-primary-btn:before {
+    content: "";
+    position: absolute;
+    background: #CEFF1A;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.15s ease-in;
+    -webkit-transition: bottom 0.15s ease-in;
+  }
+  
+  .hero-primary-btn:hover:before {
+    bottom: 0;
+  }
+
+
+.hero-secondary-btn {
+  position: relative;
+  height: 56px;
+  width: 167px;
+  margin-left: 30px;
+  padding: 5px 5px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins-Medium;
+  letter-spacing: 2px;
+  color: #132e55;
+  border: 2px #132e55 solid;
+  border-radius: 4px;
+  outline: 0;
+  overflow: hidden;
+  background: #F8F8F8;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.08s ease-in;
+  -o-transition: 0.08s ease-in;
+  -ms-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.hero-secondary-btn:hover {
+  color: #132e55;
+  border: 2px #CEFF1A solid;
+  font-weight: 600;
+}
+
+.hero-secondary-btn:before {
+  content: "";
+  position: absolute;
+  background: #CEFF1A;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  transition: 0.5s ease-in;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.hero-secondary-btn:hover:before {
+  top: 0;
+}
+
+.hero-image{
+  width: 100%; 
+  clip-path: inset(0 0 0 20%);
+}
+
+.hero-image img {
+  height: 100%;
+  width: 100%;
+}

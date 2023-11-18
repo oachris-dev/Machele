@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    /* why width? I don't think you need that */
+    /* What do I do to create two columns */
+    /* The image's width is what needs to be tamed 
+        For now, let's give it something like 400 x 400
+
+        Ah, have you linked the CSS? lol
+        Ahaa!!! LOL
+        Something so simple creates such a huge impact
+        Yes yes - the computer isn't that smart... YET lol
+
+        What do I do regarding the width?
+        Give both sections 50%, before you give the image it's width
+        You get it? Do you get what I did?
+    */
+    display: flex;
+    height: 100vh;
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    
+}
+
+.main .sect-1{
+    width: 50%;
+    background-color: hsla(0, 0%, 45%,)
+}
+
+.main .sect-2{
+    width: 50%;
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+}
