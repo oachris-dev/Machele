@@ -1,42 +1,132 @@
-body{
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main{
-    /* why width? I don't think you need that */
-    /* What do I do to create two columns */
-    /* The image's width is what needs to be tamed 
-        For now, let's give it something like 400 x 400
+button{
+    width: 150px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #b6d130;
+    background-color: #b6d130;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
-        Ah, have you linked the CSS? lol
-        Ahaa!!! LOL
-        Something so simple creates such a huge impact
-        Yes yes - the computer isn't that smart... YET lol
+.sec-but{
+    background-color: #00000000;
+    border: 2px solid #b6d130;
+    color: #b6d130;
+}
 
-        What do I do regarding the width?
-        Give both sections 50%, before you give the image it's width
-        You get it? Do you get what I did?
-    */
-    display: flex;
+.p1{
     height: 100vh;
-    background-color: aqua;
-}
-
-nav {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: flex-start;
-}
-
-.main .sect-1{
-    width: 50%;
-    background-color: hsla(0, 0%, 45%,)
-}
-
-.main .sect-2{
-    width: 50%;
-    background-image: url(../img/main.jpg);
+    width: 100vw;
+    background-image: url(../img/background.jpg);
     background-size: cover;
-    background-position: center;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-bottom: 1.5px solid #b6d130;
+}
+
+.logo{
+    color: #b6d130;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #b6d130;
+
+}
+
+/* Section 1 */
+.h-text{
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 250px;
+    background-color: hsla(70, 64%, 50%, 0.86);
+    padding: 50px;
+}
+
+.t-text{
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 64px;
+}
+
+.h-text p{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+
+/* Section 2 */
+.p2{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: hsl(47, 23%, 85%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 150px;
+}
+
+.p2 h1 {
+    font-size: 48px;
+}
+
+.p2-text{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: hsl(70, 64%, 50%);
+    border-radius: 25px;
+}
+
+.par{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.par .t-1{
+    width: 600px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.par .t-2{
+    width: 600px;
+    padding-left: 50px;
+    font-size: 14px;
 }
