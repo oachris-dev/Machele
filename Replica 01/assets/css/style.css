@@ -202,7 +202,7 @@ footer {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
-  gap: ;
+  gap: 30;
   
   height: 100%;
 }
