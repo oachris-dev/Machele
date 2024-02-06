@@ -167,7 +167,7 @@ footer {
 
 .f-details {
   display: flex;
-  justify-content: s;
+  justify-content: space-between;
 }
 
 .f-details .fr-content {
