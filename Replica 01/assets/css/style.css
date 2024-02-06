@@ -182,7 +182,7 @@ footer {
   display: flex;
   flex-direction: column;
   
-  border: 2px solid rgb(155, 155, 155);
+  border: 2px solid hsl(0, 0%, 90%);
 
   width: 50%;
   height: 100%;
