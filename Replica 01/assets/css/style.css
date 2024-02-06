@@ -201,6 +201,7 @@ footer {
 
 .f-details {
   display: flex;
+  d
   /* justify-content: space-between; */
   align-items: center;
   gap: 10%;
