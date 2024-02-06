@@ -159,6 +159,7 @@ footer {
 }
 
 .f-left {
+  display: flex;
   border: 2px solid black;
   width: 50%;
   height: 100%;
