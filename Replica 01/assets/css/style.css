@@ -156,7 +156,7 @@ footer {
 
 .f-left {
   display: flex;  
-  jus
+  justify-content: center;
   border: 2px solid black;
 
   width: 50%;
