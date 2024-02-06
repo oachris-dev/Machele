@@ -147,4 +147,7 @@ nav a {
 
 /* Footer */
 
+footer{
+  display: flex;
+}
 
