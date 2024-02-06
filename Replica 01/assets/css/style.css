@@ -205,13 +205,13 @@ footer {
   align-items: center;
   gap: 10%;
   
-   height: 100%;
 }
 
 .f-details .fr-content {
   display: flex;
   flex-direction: column;
   
+  height: 100%;
   width: 100%;
 }
 
