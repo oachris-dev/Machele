@@ -141,7 +141,7 @@ footer {
 }
 
 .footer-content {
-  f
+  display: flex;
   height: 80%;
   width: 100%;
 }
