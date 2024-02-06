@@ -153,13 +153,11 @@ footer {
 }
 
 .f-right {
-  /* background-color: #ffff; */
   border: 2px solid black;
   width: 50%;
 }
 
 .f-left {
-  /* background-color: #000000; */
   border: 2px solid black;
   width: 50%;
 }
