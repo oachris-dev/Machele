@@ -203,7 +203,6 @@ footer {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
-  gap: 10%;
   
 }
 
@@ -211,6 +210,7 @@ footer {
   display: flex;
   flex-direction: column;
   
+  gap: 10%;
   height: 100%;
   width: 100%;
 }
