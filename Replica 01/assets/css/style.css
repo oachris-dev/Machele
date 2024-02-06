@@ -139,14 +139,13 @@ footer {
   /* height: 244px; */
 }
 
-.footer-content{
-  
+.footer-content {
+  height: 244px;
 }
 
 .f-right {
   border: 2px solid black;
   width: 50%;
-
 }
 
 .f-left {
