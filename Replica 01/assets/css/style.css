@@ -164,4 +164,6 @@ footer {
   background-color: green;
 }
 
-.f-details
+.f-details {
+  display: flex;
+}
