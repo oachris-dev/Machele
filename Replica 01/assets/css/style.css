@@ -143,6 +143,15 @@ nav a {
 .contact-us {
   display: flex;
   background-color: #f2f2f2;
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 0 0 90px 0;
+
+  height: 424px;
+
 }
 
 .f-right {
