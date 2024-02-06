@@ -202,6 +202,7 @@ footer {
 .f-details {
   display: flex;
   align-items: center;
+  height: 80%;
   
 }
 
@@ -211,7 +212,6 @@ footer {
   
   gap: 10%;
 
-  height: 80%;
   width: 100%;
 }
 
