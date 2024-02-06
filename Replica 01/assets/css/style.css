@@ -150,8 +150,11 @@ footer {
 .f-right {
   display: flex;
   flex-direction: column;
+  
   border: 2px solid black;
+
   width: 50%;
+  
   height: 100%;
 }
 
