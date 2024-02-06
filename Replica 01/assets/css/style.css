@@ -147,7 +147,7 @@ nav a {
 
 /* Footer */
 
-footer {
+.contact-us {
   display: flex;
   background-color: #f2f2f2;
 }
