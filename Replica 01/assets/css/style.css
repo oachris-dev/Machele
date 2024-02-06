@@ -167,6 +167,7 @@ footer {
 
 .f-details {
   display: flex;
+  justify-content: s;
 }
 
 .f-details .fr-content {
