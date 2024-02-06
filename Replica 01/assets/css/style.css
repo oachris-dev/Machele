@@ -170,7 +170,5 @@ footer {
 
 .f-details .fr-content {
   display: flex;
-  fl
+  flex-direction: column;
 }
-
-
