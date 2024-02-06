@@ -147,7 +147,8 @@ footer {
 }
 
 .f-right {
-  di
+  display: flex;
+  fl
   border: 2px solid black;
   width: 50%;
 }
