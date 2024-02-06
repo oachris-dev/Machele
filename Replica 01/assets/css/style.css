@@ -173,7 +173,7 @@ footer {
   flex-direction: column;
 }
 
-.f-details .fr-content {
+.f-details .fr-content .direct-contact {
   display: flex;
   flex-direction: column;
 }
