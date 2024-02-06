@@ -147,10 +147,10 @@ nav a {
 
 /* Footer */
 
-footer{
+footer {
   display: flex;
 }
 
-.f-right{
-  width: 50;
+.f-right {
+  width: 50%;
 }
