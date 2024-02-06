@@ -168,8 +168,9 @@ footer {
   display: flex;
 }
 
-.f-details .fr {
+.f-details .fr-content {
   display: flex;
+  
 }
 
 
