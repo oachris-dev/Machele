@@ -148,7 +148,7 @@ footer {
 
 .f-right {
   display: flex;
-  fl
+  flex-direction: column;
   border: 2px solid black;
   width: 50%;
 }
