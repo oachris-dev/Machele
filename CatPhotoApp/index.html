@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <!-- Main Box -->
+        <main>
+            <!-- Main Header -->
+            <h1>CatPhotoApp</h1>
+            
+            <section class="section-01">
+                <!-- section header -->
+                <h2>CatPhoto</h2>
+
+                <!-- link in paragraph -->
+                <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+                
+                <!-- clickable image -->
+                <a href="https://freecatphotoapp.com">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+                </a>
+            </section>
+
+            <!-- Section 02 -->
+            <section class="section-02">
+                <h2>Cal Lists</h2>
+                <h3>Things cats love:</h3>
+
+                <!-- Unordered List -->
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+
+                <!-- Image with Caption -->
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                </figure>
+
+                <h3>Top 3 things cats hate:</h3>
+                
+                <!-- Ordered List -->
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+
+                <!-- Image with Caption -->
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                </figure>
+            </section>
+
+            <!-- Section 03 -->
+            <section class="section-03">
+                <h2>Cat Form</h2>
+
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    
+                    <!-- Field 1 -->
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        
+                        <!-- Indoor -->
+                        <label for="indoor">
+                            <input type="radio" name="indoor-outdoor" id="indoor" value="indoor" checked> Indoor
+                        </label>
+
+                        <!-- Outdoor -->
+                        <label for="outdoor">
+                            <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor"> Outdoor
+                        </label>
+                    </fieldset>
+
+                    <!-- Field 2 -->
+                    <fieldset>
+                        <legend>What is your cat's personality?</legend>
+                        
+                        <!-- Loving -->
+                        <label for="loving">
+                            <input type="checkbox" name="personality" id="loving" value="loving" checked> Loving
+                        </label>
+                        
+                        <!-- Lazy -->
+                        <label for="lazy">
+                            <input type="checkbox" name="personality" id="lazy" value="lazy"> Lazy
+                        </label>
+
+                        <!-- Energetic -->
+                        <label for="energetic">
+                            <input type="checkbox" name="personality" id="energetic" value="energetic"> Energetic
+                        </label>
+                    </fieldset>
+
+                    <input type="text" name="cat-photo-url" id="" placeholder="cat-photo-url" required>
+                    <button type="submit">Submit</button>
+                </form>
+
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+            </p>
+        </footer>
+    </body>
+</html>
