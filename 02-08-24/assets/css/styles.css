@@ -1,6 +1,114 @@
-body{
-    background-color: #ffffff;
-    margin: 50px;
-    font-family: Klavika;
+* {
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  background-color: #ffffff;
+  /* background-color: forestgreen; */
+
+  font-family: Klavika;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 60px 0 0 0;
+}
+
+h1 {
+  /* background-color: yellow; */
+  color: rgb(24, 119, 242);
+
+  font-family: Outfit;
+  font-size: 52px;
+
+  margin: 0 0 9px 0;
+}
+
+fieldset {
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 15vw;
+  border-radius: 5px;
+  border: 0.1px solid #f4f4f4;
+  box-shadow: 0 4px 8px #00000034;
+
+  padding: 0 12px;
+}
+
+span {
+  /* background-color: aquamarine; */
+
+  font-size: 15px;
+  color: #505050;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin: 24px 0 18px 0;
+}
+
+.boxes {
+  /* background-color: orange; */
+
+  gap: 9px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  border: 1.5px solid #e3e3e3;
+  border-radius: 5px;
+
+  padding: 12px;
+}
+
+input::placeholder {
+  color: #b4b4b4;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+button {
+  background-color: rgb(24, 119, 242);
+
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+
+  width: 100%;
+
+  padding: 12px 0;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.alternatives {
+  display: flex;
+  justify-content: center;
+
+  margin: 18px 0 24px 0;
+  gap: 12px;
+}
+
+.alternatives a {
+  /* background-color: burlywood; */
+  color: rgb(24, 119, 242);
+
+  font-size: 11px;
+  font-weight: 300;
+  text-decoration: none;
+}
